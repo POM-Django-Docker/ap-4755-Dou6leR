@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# IDE
+.idea
+.vscode
+
+# Local Django artifacts
+**/db.sqlite3
+**/local_settings.py
+*.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Docs / misc
+README.md
+.env
